@@ -5,6 +5,8 @@ public class replaceletter {
         String str2="hello my name is priyanshu singh";
         String change=str2.replace('e', 'm');//to change character.
         System.out.println(change);
+        String new_str = str1.substring(10, 26);// to get substring in limited range
+        System.out.println(new_str);
     }
 }
 
