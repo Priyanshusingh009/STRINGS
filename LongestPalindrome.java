@@ -10,6 +10,7 @@ public class LongestPalindrome {
         return str.substring(left+1, right);
     }
     public static String longestPalindrome(String str){
+        str =str.toLowerCase();
         if(str.length()==0 || str.length()<1)return "";
         String longest="";
         for(int i=0;i<str.length();i++){
